@@ -10,7 +10,7 @@ class Test{
         CitiesOfTurkiye myGraph = new CitiesOfTurkiye(81);
         
         try {
-            File myObj = new File("C:\\Users\\furka\\OneDrive\\Belgeler\\NetBeansProjects\\CENG202\\src\\Labs\\Lab9\\cities.txt");
+            File myObj = new File("Data\cities.txt");
             Scanner myReader = new Scanner(myObj);
             int i = 0;
             while (myReader.hasNextLine()) {
@@ -24,7 +24,7 @@ class Test{
         }
         
         try {
-            File myObj = new File("C:\\Users\\furka\\OneDrive\\Belgeler\\NetBeansProjects\\CENG202\\src\\Labs\\Lab9\\graph.txt");
+            File myObj = new File("Data\graph.txt");
             Scanner myReader = new Scanner(myObj);
             int i = 0;
             while (myReader.hasNextLine()) {
